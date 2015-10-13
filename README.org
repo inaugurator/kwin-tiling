@@ -1,6 +1,7 @@
 * kwin-tiling
 
   Tiling script for kwin, based on [[https://github.com/mgottschlag/kwin-tiling][Mathias Gottschlag's version]]
+  This is Plasma 1/KWin 4 version
 
 ** Goals:
    The purpose of this is to create a userfriendly tiling solution that
@@ -13,7 +14,7 @@
 	 Window previews and effects alongside different tiling layouts
    - Does not require the user to delve into scripting to get a sane configuration
 ** Features:
-   - Three layouts, one with support for multiple "master" windows
+   - Two layouts: horizontal and vertical spirals
 
    - Support for minimizing and unminimizing windows
 
