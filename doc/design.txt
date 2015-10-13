@@ -7,8 +7,9 @@ Goals:
  * A functional tiling window management extension for kwin
  * Automatic layouts should be supported:
    * Spiral layout (SpiralLayout)
-   * Two columns/rows (HalfLayout)
-   * Rows only (BladeLayout)
+   * Spiral Top layout (SpiralTopLayout) [horzontal]
+   * Two columns/rows (HalfLayout) [removed]
+   * Rows only (BladeLayout) [removed]
    * Regular grid?
    * ...
  * Different layouts for different desktops/screens
