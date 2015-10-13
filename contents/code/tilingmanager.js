@@ -4,6 +4,8 @@
 
 Copyright (C) 2012 Mathias Gottschlag <mgottschlag@gmail.com>
 Copyright (C) 2013-2014 Fabian Homborg <FHomborg@gmail.com>
+Copyright (C) 2015 Evgeny Bahtin <bahtin.evgen@gmail.com>
+
 
 This program is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -24,8 +26,7 @@ Qt.include("tile.js");
 Qt.include("tilelist.js");
 Qt.include("layout.js");
 Qt.include("spirallayout.js");
-Qt.include("halflayout.js");
-Qt.include("bladelayout.js");
+Qt.include("spiraltoplayout.js");
 Qt.include("tiling.js");
 Qt.include("tests.js");
 Qt.include("util.js");
@@ -46,9 +47,10 @@ function TilingManager() {
      * List of all available layout types.
      */
     this.availableLayouts = [
-		HalfLayout,
-		BladeLayout,
-        SpiralLayout/*,
+	SpiralLayout,
+        SpiralTopLayout/*,
+        				  HalfLayout,
+					  BladeLayout,
 					  ZigZagLayout,
 					  ColumnLayout,
 					  RowLayout,
